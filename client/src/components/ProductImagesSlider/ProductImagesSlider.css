@@ -1,0 +1,36 @@
+
+.container {
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left {
+    display: flex;
+ 
+}
+.left_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img_wrap {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+.img_wrap img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.left_2 img {
+    width: 700px;
+    height: 100%;
+    object-fit: contain;
+}
+.active {
+    border: 2px solid #e77600;
+}
